@@ -1,0 +1,26 @@
+{
+  "name": "modern-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch",
+    "serve": "npm run watch & live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^11.7.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "live-server": "^1.2.2",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
